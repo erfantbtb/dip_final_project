@@ -112,7 +112,7 @@ def sample_paired_batch(
         profile_a: DomainProfile, 
         profile_b: DomainProfile,
         size: int = 128, 
-        generator: torch.Generator = None) -> Set[torch.Tensor, torch.Tensor]:
+        generator: torch.Generator = None) -> Set[torch.Tensor]:
     """
     Paired sampling used for evaluation and having ground truth
 
