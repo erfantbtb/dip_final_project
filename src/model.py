@@ -51,7 +51,7 @@ class MSLKA(nn.Module):
         fused = self.fuse(torch.cat(feats, dim=1))
         gate = self.style_mlp(style).unsqueeze(-1).unsqueeze(-1)  # (B, C, 1, 1)
         modulated = fused * gate
-        return x + modulated  # residual keeps early training stable
+        return x + modulated  
 
 
 class DownBlock(nn.Module):

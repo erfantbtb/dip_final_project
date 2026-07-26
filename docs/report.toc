@@ -1,0 +1,35 @@
+\contentsline {section}{\numberline {1}Introduction}{4}{section.1}%
+\contentsline {section}{\numberline {2}Background: The MERIT Framework}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Problem Formulation}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Architecture (Paper)}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Sensor-Aware Noise Modeling (SANM)}{4}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Multi-Scale Large Kernel Attention (MS-LKA)}{5}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Loss Functions}{5}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Datasets and Metrics}{5}{subsection.2.6}%
+\contentsline {section}{\numberline {3}Project Structure}{5}{section.3}%
+\contentsline {section}{\numberline {4}Synthetic Data Generation}{5}{section.4}%
+\contentsline {section}{\numberline {5}Preprocessing}{6}{section.5}%
+\contentsline {section}{\numberline {6}Model Architecture}{6}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Style Encoder}{6}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}MS-LKA Module}{6}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Generator}{7}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Deviations from the Paper's Architecture}{7}{subsection.6.4}%
+\contentsline {section}{\numberline {7}Training Procedure}{7}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Data Volume}{7}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Observed Training Convergence}{8}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Deviations from the Paper's Training Objective}{8}{subsection.7.3}%
+\contentsline {section}{\numberline {8}Inference: Brightness-Based Reference Selection}{8}{section.8}%
+\contentsline {paragraph}{Worked example (actual run).}{9}{section*.6}%
+\contentsline {section}{\numberline {9}Evaluation}{9}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Reference vs.\ Ground Truth}{9}{subsection.9.1}%
+\contentsline {section}{\numberline {10}Results}{10}{section.10}%
+\contentsline {paragraph}{An honest reading of this result.}{10}{section*.8}%
+\contentsline {section}{\numberline {11}Discussion and Limitations}{10}{section.11}%
+\contentsline {section}{\numberline {12}Conclusion}{11}{section.12}%
+\contentsline {section}{\numberline {A}Full Source Code}{12}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}data\_generator.py}{12}{subsection.A.1}%
+\contentsline {subsection}{\numberline {A.2}data\_preprocessing.py}{14}{subsection.A.2}%
+\contentsline {subsection}{\numberline {A.3}model.py}{16}{subsection.A.3}%
+\contentsline {subsection}{\numberline {A.4}train.py}{19}{subsection.A.4}%
+\contentsline {subsection}{\numberline {A.5}evaluate.py}{20}{subsection.A.5}%
+\contentsline {subsection}{\numberline {A.6}main.py}{21}{subsection.A.6}%
